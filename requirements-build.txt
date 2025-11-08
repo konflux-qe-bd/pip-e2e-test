@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes requirements-build.in
 #
-flit-core==3.8.0 \
+flit-core==3.12.0 \
     --hash=sha256:64a29ec845164a6abe1136bf4bc5ae012bdfe758ed42fc7571a9059a7c80bd83 \
     --hash=sha256:b305b30c99526df5e63d6022dd2310a0a941a187bd3884f4c8ef0418df6c39f3
     # via -r requirements-build.in
