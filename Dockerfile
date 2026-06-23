@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/python-39@sha256:01fe0c6b483a3c425a1b851569b4f6445244c95e16c195a4f52c6e860e82891b
+FROM registry.access.redhat.com/ubi9/python-39@sha256:a82b87b49cb9864e11c0198e63008f1dbcbf03b1703f159b91982c49cf4c45a5
 
 # Test disabled network access
 RUN if curl -IsS www.google.com; then echo "Has network access!"; exit 1; fi
